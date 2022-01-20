@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body, html{
+    font-family: Nunito, sans-serif;  
+    background-color: rgb(46, 44, 44);    
+}
+h1, p {
+    color: white
+}
+
+span {
+  color: goldenrod;
+}
+
+.header { 
+    margin-top: 1rem;
+}
+.container {
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem;
+    display: block;
+    margin: auto;   
+    border: 0.15rem solid rgb(212, 211, 211);
+    background-color: white;
+    border-radius: 0.5rem;
+}
+input[type="radio"] {
+    cursor: pointer;
+   
+}
+
+.border-icon{
+    border: none;
+}
+
+
+

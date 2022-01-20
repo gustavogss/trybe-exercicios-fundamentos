@@ -1,0 +1,9 @@
+Irei aprender na Trybe:
+
+- Unix
+- Linux
+- Git
+- HTML
+- CSS
+- JavaSript
+

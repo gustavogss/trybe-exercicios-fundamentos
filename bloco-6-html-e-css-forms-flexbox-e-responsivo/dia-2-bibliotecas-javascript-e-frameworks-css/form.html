@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="text-center header ">
+      <h1 class="display-5">Formulario de <span>Curriculum</span></h1>
+      <p class="lead"><em>Preencha com seus dados os campos abaixo</em></p>
+    </header>
+    <main class="container modal-content">     
+      <form class="col s12">        
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="mb-3">
+            <label for="name"
+              ><i class="fas fa-user"></i>
+              <input
+                type="text"
+                name="nome"
+                id="name"
+                maxlength="40"
+                required
+                class="form-control"
+                placeholder="Coloque seu nome:"
+              />
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="email"
+              ><i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                maxlength="40"
+                required               
+                class="form-control"
+                placeholder="Digite seu melhor email:"
+              />
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="cpf"
+              ><i class="fas fa-id-card-alt"></i>
+              <input
+                type="text"
+                name="cpf"
+                id="cpf"
+                maxlength="11"
+                required
+                class="form-control"
+                placeholder="Digite seu CPF:"
+              />
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="endereco">
+                <i class="fas fa-map-marker-alt"></i>
+              <input
+                type="text"
+                name="endereco"
+                id="endereco"
+                class="form-control"
+                maxlength="200"
+                placeholder="Coloque seu endereço"
+                required
+              />
+            </label>
+          
+         
+            <label for="cidade">
+               
+              <input
+                type="text"
+                name="cidade"
+                id="cidade"
+                maxlength="28"
+                class="form-control"
+                placeholder="Cidade onde mora"
+                required                
+              />
+            </label>
+                 
+            <label for="estados"
+              >
+              <select name="estados" id="estados" class=" form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option disabled selected value>UF</option>               
+              </select>             
+            </label>
+          </div>          
+          <div class="mb-3">
+            <i class="fas fa-home form-check-input border-icon"></i>
+            <label class="form-label" for="apto" >
+              <input                
+                type="radio"
+                name="morada"
+                class="form-check-input "                
+                id="apto"               
+                value="Apartamento"/>  Apartamento
+             </label>
+             <label class="form-label" for="casa" >
+              <input class="form-check-input" type="radio" name="morada" id="casa" value="Casa" />  Casa
+            </label>
+          </div>
+        </fieldset>
+        </div>
+        <div class="row">
+        <fieldset>
+          <legend>Experiência</legend>
+          <div class="mb-3">
+            <label for="resumo">
+              
+              <textarea
+                name="resumo"
+                id="resumo"
+                cols="100"
+                rows="5"
+                maxlength="1000"
+                required
+                class="form-control""
+                placeholder="Faça um resumo"
+              ></textarea>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="cargo"
+              ><i class="fas fa-briefcase"></i>
+              <input type="text" name="cargo" id="cargo" class="form-control" required placeholder="Último cargo"/>
+            </label>
+         
+         
+            <label for="descricao">
+             
+              <input type="text" name="descricao" class="form-control" id="descricao" required placeholder="Descrição"/>
+            </label>
+            </div>
+            <div class="mb-3">
+            <label for="data">
+              Inicio
+              <input type="date" class="form-control" name="date-begin" id="date-begin" required />
+            </label>
+            <label for="data">
+                Fim
+                <input type="date" class="form-control" name="date-end" id="date-end" required />
+              </label>
+          </div>
+        </div>
+        </fieldset>
+        <div class="botoes">
+          <button class="btn btn-success" type="submit" id="submit">Enviar Curriculum</button>
+          <button type="reset" class="btn btn-danger">Limpar Dados</button>
+        </div>
+      </form>
+    </div>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
