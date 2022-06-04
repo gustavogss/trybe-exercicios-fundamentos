@@ -63,5 +63,11 @@ Este repositório contém todas as anotações, práticas e exercicios do Módul
  - [x] Javascript ES6 - spread operator, parâmetro rest, destructuring
  
   <strike>Projeto Zoo function</strike>
+  
+ ### Bloco 09: Javascript e Testes Assíncronos:
+ - [x] Javascript Assíncronos e Callbacks
+ - [x] Javascript Assíncronos - Fetch e Async/Await
+ - [x] Testes Assíncronos
  
+ <strike>Projeto Carrinho de Compras</strike> 
 
